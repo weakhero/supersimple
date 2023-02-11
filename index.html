@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d599de1e96.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="Header">
+       <div class="container">
+          <nav>
+            <img src="../img/images/330460342_1475275029547218_1921847000218716608_n.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#Header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Service</a></li>
+                <li><a href="#Portfolio">Porfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>HTML/CSS Designer</p>
+            <h1>Hi I'm <span> Carlo! </span> <br> from Philipines</h1>
+         </div>
+       </div>
+    </div>
+
+    <!---about----->
+    
+    <div id="About">
+        <div class="container">
+           <div class="row">
+            <div class="about-col-1">
+                <img src="../img/images/0000.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"><span> About me</span></h1>
+                <p>As a student of BSIT, you have already taken an important step in your journey to becoming a great programmer and successful back-end developer.  With hard work, dedication, and persistence, you will be able to reach your goal. To become a great programmer, it is important to have a strong foundation in computer science and programming concepts. Continuously learn and practice coding through various projects, coding challenges, and online tutorials.  Read books and articles about programming, as well as about new technologies and trends in the field. Stay updated with the latest advancements and developments in the industry.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills<p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML/CSS</span><BR>designing and Web Developers</li>
+                        <li><span>Web development</span><BR>Web app development</li>
+                        <li><span>App development</span><BR>trying my best to build apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 -Current</span><BR> Studying designing and Web development</li>
+                        <li><span>2021 -Current</span><BR> Studying Java Programing Language</li>
+                        <li><span>2021 -Current</span><BR> Studying Javascript and how it works</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>College</span><BR>STI San Fernando Branch</li>
+                        <li><span>Senior Highschool</span><BR>Dalcuis</li>
+                        <li><span>Highschool</span><BR>Don antonio lee chi uan integrated school</li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <!--- -------services------------ -->
+
+    <div id="Services">
+        <div class="container">
+
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design refers to the process of creating and arranging the content, layout, and overall look and feel of a website. It involves a combination of graphic design, user experience (UX) design, and front-end development. A well-designed website should not only be aesthetically pleasing but also be user-friendly, functional, and easily accessible to users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX design</h2>
+                    <p>UI/UX design refers to the process of designing the user interface and user experience of a product, such as a website or a mobile application. UI design focuses on the visual aspect of the product and how users interact with its elements, such as buttons, menus, and forms. UX design, on the other hand, focuses on the overall experience of the users, including their emotions and behavior, when using the product.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>Apps Design</h2>
+                    <p>App design refers to the process of designing the visual and interactive elements of a mobile application. It encompasses various aspects, including user interface (UI) design, user experience (UX) design, and branding. A well-designed app should be aesthetically pleasing, user-friendly, and provide a seamless experience for the users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------portfolio----------->
+    <div id="Portfolio">
+         <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="wrork-list">
+                <div class="work">
+                    <img src="../img/images/work-1.png">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>Our social media app is a platform that connects people from all over the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../img/images/work-2.png">
+                    <div class="layer">
+                    <h3>Music app</h3>
+                        <p>Our social media app is a platform that connects people from all over the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../img/images/work-3.png">
+                    <div class="layer">
+                    <h3>online shopping app</h3>
+                        <p>Our social media app is a platform that connects people from all over the world. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+         </div>
+         <a href="#" class="btn">See more</a>
+     </div>
+    </div>
+    <!----------contact------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="Sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>enz00Cassano@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>09706667869</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/johncarlo.dellomas"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="../img/images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="text" email="email" placeholder="Your email" required>
+                        <textarea name="Massage" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"><p> Rates" <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>"</p></div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+             for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+             }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+             }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+            var sidemenu = document.getElementById("sidemenu")
+
+            function openmenu(){
+                sidemenu.style.right = "0"
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px"
+            }
+
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz0ARjy4qOUJQ1fhun34ltYdFYPfLno3df_NziFgkX7H4-c2Z9r81IxTOLtE5cgmuUr/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
